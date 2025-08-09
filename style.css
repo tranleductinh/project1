@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: Arial;
+}
+
+.background {
+    background-image: url('./imgs/hinh1.svg');
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+}
+
+.login {
+    background-color: white;
+    max-width: 564px;
+    max-height: 658px;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.login input {
+    border-radius: 12px;
+    height: 56px;
+    width: 480px;
+    border: 1px solid #ccc
+}
+
+
+.login a {
+    color: #111111;
+    font-weight: bold;
+}
+
+.login button {
+    height: 56px;
+    border-radius: 32px;
+    margin-bottom: 15px;
+    height: 56px;
+    border: 1px solid #ccc;
+    background-color: white;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #d8ead3;
+}
+
+button.btn-login2 {
+    background-color: #a5a5a5;
+    color: white;
+}
+
+button.btn-img {
+    width: 110px;
+}
+
+.img-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px
+}
+
+.hide {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+    height: 60px;
+}
+
+.header {
+    display: flex;
+    height: 72px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+}
+
+.left-text{
+    display: flex;
+    margin: auto 0;
+    font-size: 16px;
+    color: #666666;
+    gap: 40px
+}
+
+.left-img {
+    margin: auto 0;
+}
+
+.left a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #666666;
+    width: 120px;
+}
+
+.text {
+    font-size: 16px;
+    color: #666666;
+}
+
+.bold {
+    font-weight: bold;
+    color: #111111;
+}
+
+.right {
+    display: flex;
+    gap: 16px;
+    margin-right: 40px;
+}
+
+.right button {
+    border-radius: 8px;
+    height: 40px;
+    margin: auto 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.right select {
+    border: 1px;
+}
+
+button.btn-login {
+    width: 98px;
+    background: white;
+}
+
+button.btn-login:hover {
+    background-color: #d8ead3;
+}
+
+button.btn-start {
+    width: 151px;
+    background: #111111;
+    color: white;
+}
+
+button.btn-start:hover {
+    background-color: #ccc;
+}
+
