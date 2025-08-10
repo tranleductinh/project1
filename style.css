@@ -1,14 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font: Arial;
 }
 
 .background {
     background-image: url('./imgs/hinh1.svg');
     background-size: cover;
     display: flex;
-    height: 100vh;
+    height: 100%;
 }
 
 .login {
@@ -18,8 +17,9 @@
     margin: auto auto;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 42px;
     border-radius: 24px;
+    gap: 32px;
 }
 
 .login input {
@@ -32,14 +32,11 @@
 
 .login a {
     color: #111111;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .login button {
-    height: 56px;
     border-radius: 32px;
-    margin-bottom: 15px;
-    height: 56px;
     border: 1px solid #ccc;
     background-color: white;
     align-items: center; 
@@ -53,32 +50,67 @@
 }
 
 button.btn-login2 {
-    background-color: #a5a5a5;
+    padding-top: 12.5px;
+    padding-bottom: 13.5px;
+    background-color: #c4c4c4;
     color: white;
+    gap: 8px;
+    font-size: 20px;
 }
 
 button.btn-img {
-    width: 110px;
+    padding-top: 12.5px;
+    padding-bottom: 11.5px;
+    padding-left: 39px;
+    padding-right: 39px;
+    border: 1px solid #333333
+}
+
+button.btn-icon {
+    display: flex;
+    gap: 8px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-left: 156.5px;
+    padding-right: 156.5px;
+    font-size: 18px;
+    border: 1px solid #333333;
+    font-weight: 400px;
 }
 
 .img-button {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .between {
     display: flex;
     justify-content: space-between;
-    margin-top: 12px
+    gap: 4px;
+}
+
+.text-grap1{
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.text-grap2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px
 }
 
 .hide {
     display: flex;
 }
 
-.center {
+.login-title {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    height: 60px;
+    gap: 8px
 }
 
 .header {
@@ -110,12 +142,14 @@ button.btn-img {
     text-decoration: none;
     font-size: 16px;
     color: #666666;
-    width: 120px;
 }
 
 .text {
+    display: flex;
+    flex-direction: column;
     font-size: 16px;
     color: #666666;
+    gap: 16px;
 }
 
 .bold {
@@ -131,7 +165,6 @@ button.btn-img {
 
 .right button {
     border-radius: 8px;
-    height: 40px;
     margin: auto 0;
     border: 1px solid #ccc;
     cursor: pointer;
@@ -142,8 +175,13 @@ button.btn-img {
 }
 
 button.btn-login {
-    width: 98px;
+    padding-top: 7.5px;
+    padding-bottom: 8.5px;
+    padding-left: 25.5px;
+    padding-right: 25.5px;
+    gap: 8px;
     background: white;
+    border: 1px solid #111111
 }
 
 button.btn-login:hover {
@@ -151,12 +189,126 @@ button.btn-login:hover {
 }
 
 button.btn-start {
-    width: 151px;
     background: #111111;
     color: white;
+    padding-top: 7.5px;
+    padding-bottom: 8.5px;
+    padding-left: 22px;
+    padding-right: 21px;
+    gap: 8px;
 }
 
 button.btn-start:hover {
     background-color: #ccc;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
